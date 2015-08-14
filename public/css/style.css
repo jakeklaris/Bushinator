@@ -1,0 +1,53 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px blue;
+  font-family: 'Signika', sans-serif;
+}
+
+p {
+  text-align: center;
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 1px 1px #000, 
+               3px 3px 5px blue;
+}
+
+body {
+/*   background-image: url("http://cdn.playbuzz.com/cdn/f1243005-aaf7-45b7-8a34-c37f04c12508/f0c3a36a-2877-45e7-8662-c834c92d3a79.jpg");
+  background-size: contain; */
+  background-color: #6E6E6E;
+
+}
+
+/* #body2 {
+  background-color: blue;
+} */
+
+#gif {
+  text-align: center;
+  
+}
+
+#dropdown {
+  text-align: center;
+  
+}
+
+#button {
+  text-align: center;
+  
+}
+
+button {
+  height: 5em;
+  width: 15em;
+  background-color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Random Bush Quote</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+ </head>
+ <body>
+   <div id= "body2">
+   <p> 
+     <%= @bush_quotes.rand_quote %>
+   </p> 
+   </div>
+   <p>
+<!--    <a href= "quote_page.erb"><img src="http://test.ryanpcostello.com/budlightsuperbowl/try-again-button.png" height = "200"     width = "500" > </a>  -->
+<!--      <a href= "quote_page.erb"><button type ="button" >TRY AGAIN!</button></a> -->
+<!--     <a href= "index.erb"><img src="http://www.clker.com/cliparts/X/C/N/c/e/Y/public-exit-button-md.png" width ="300" ></a>  -->
+     
+   <a href= "index.erb"><button type ="button">Go Back</button></a> </p>
+     <audio autoplay>
+    <source src="../music/Hail.mp3" type="audio/mpeg">
+  </audio>
+   
+    <div id= "gif">
+   <iframe src="//giphy.com/embed/o0rwAoBJ1VeRa?html5=true" width="480" height="314" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+   </div>
+   
+ </body>
+</html>
